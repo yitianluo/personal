@@ -1,0 +1,133 @@
+.projects {
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    color: var(--Text-Color);
+}
+
+.divTitle h1{
+    color: var(--Text-Color);
+    font-size: 3vw;
+    text-align: center;
+    font-family: var(--Font-Title);
+    margin: 2vw 0;
+}
+
+.projectDiv {
+    position: relative;
+    display: flex;
+}
+
+.finance {
+    width: 50%;
+    background-color: white;
+}
+
+.finance h1 {
+    text-align: center;
+    font-family: var(--Font-Title);
+    background-color: var(--Text-Color);
+    color: white;
+    margin: 0;
+}
+
+.fund {
+    padding-top:2vw;
+    background-color: #f1f1f1;
+}
+
+.fund h2{
+    text-align: center;
+    font-family: var(--Font-Text);
+    font-size: 2vw;
+    margin: 0;
+}
+
+.fund p{
+    font-family: var(--Font-Detail);
+    padding: 1vw 5vw;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.four img{
+    width: 20%;
+    object-fit: cover;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.two img {
+    width: 40%;
+    object-fit: cover;
+}
+
+/* Other Div */
+
+.other {
+    width: 50%;
+    
+}
+
+.technology h1{
+    margin: 0;
+    text-align: center;
+    font-family: var(--Font-Title);
+    background-color: var(--Text-Color);
+    color: white;
+}
+
+.website {
+    padding-top: 2vw;
+}
+
+.website h2{
+    text-align: center;
+    font-family: var(--Font-Text);
+    font-size: 2vw;
+    margin: 0;
+}
+
+.website p{
+    font-family: var(--Font-Detail);
+    padding: 1vw 5vw;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.website img{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.education {
+    padding-top: 2vw;
+}
+
+.education h1{
+    margin: 0;
+    text-align: center;
+    font-family: var(--Font-Title);
+    background-color: var(--Text-Color);
+    color: white;
+}
+
+.education p{
+    font-family: var(--Font-Detail);
+    padding: 1vw 5vw;
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.education img{
+    height: 4vw;
+    padding-left: 5vw;
+}

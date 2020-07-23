@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    color: var(--Text-Color);
+    height: 5rem;
+    position: fixed;
+    background-color: white;
+    width: 96vw;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar h1{
+    font-family: var(--Font-Title);
+}
+
+.navbar p{
+    font-family: var(--Font-Text);
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+.menu {
+    display: flex;
+    width: 70vw;
+    justify-content: flex-end;
+}

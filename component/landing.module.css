@@ -1,0 +1,141 @@
+.landing {
+    position: relative;
+    margin-top: 5rem;
+    z-index: 1;
+}
+
+.landing img{
+    width: 100%;
+    display: block;
+}
+
+.mask {
+    position: absolute;
+    background-color: var(--Text-Color);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+
+}
+
+/* Namecard Div */
+
+.namecard {
+    position: absolute;
+    top: 10vw;
+    width: 60vw;
+    left: 20vw;
+    bottom: 0;
+    background-color: white;
+}
+
+.photo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right introduction */
+
+.introduction {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    /* width: 50%; */
+    color: var(--Text-Color);
+    padding: 2vw 0 2vw 5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+}
+
+.introduction h1{
+    font-family: var(--Font-Title);
+    font-size: 3vw;
+    margin: 0;
+}
+
+.introduction h2{
+    font-family: var(--Font-Title);
+    font-size: 2vw;
+    margin: 0;
+}
+
+.introduction h3{
+    font-family: var(--Font-Text);
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: block;
+    margin: 0;
+}
+
+.introduction p {
+    font-family: var(--Font-Text);
+    font-size: 1.5vw;
+    display: block;
+    margin: 0;
+}
+
+/* Socail Div */
+
+.socialDiv{
+    background-color: #F1F1F1;
+}
+
+.social {
+    background-color: var(--Text-Color);
+    width: 30vw;
+    margin-left: 20vw;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height:4rem;
+    padding:0 15vw
+}
+
+.social svg{
+    fill:white;
+    width: 2vw;
+}
+
+/* About me div */
+
+.aboutme {
+    background-color:  #F1F1F1;
+    padding-top: 2vw;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Text-Color);
+}
+
+.aboutme h1{
+    font-family: var(--Font-Title);
+    text-align: center;
+    font-size: 3vw;
+}
+
+.aboutme p{
+    font-family: var(--Font-Text);
+    padding: 0 10vw;
+    font-size: 1.3vw;
+}

@@ -1,0 +1,40 @@
+.skills {
+    padding-bottom: 2vw;
+} 
+
+.skills h1{
+    background-color: var(--Text-Color);
+    color:white;
+    text-align: center;
+    font-family: var(--Font-Title);
+    padding:2vw 0;
+    font-size: 3vw;
+    margin: 0;
+}
+
+.skillDiv{
+    padding: 2vw 20vw 0;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block{
+    font-family: var(--Font-Text);
+    padding: 2vw 0;
+    width: 24vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25,35,80,0.85);
+}
+
+.block h2 {
+    color: white;
+    font-size: 1.5vw;
+    margin: 0;
+}
