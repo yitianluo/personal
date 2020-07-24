@@ -9,11 +9,12 @@
 .divTitle {
     display: flex;
     justify-content: center;
+    height: 5rem;
+    align-items: center;
 }
 
 .divTitle img{
     height: 4vw;
-    margin: 2vw 0;
 }
 
 .projectDiv {
@@ -147,6 +148,10 @@
 }
 
 @media (max-width:1028px){
+
+    .divTitle{
+        height: 4rem;
+    }
 
     .divTitle img{
         height: 5.5vw;
