@@ -2,8 +2,10 @@ import styles from "./skills.module.css"
 
 export default function Skills(){
     return(
-        <div className={styles.skills}>
-            <h1>技能及专长</h1>
+        <div className={styles.skills} id="skills">
+            <div className={styles.imgDiv}>
+                <img src="/xingkai/skills.png"></img>
+            </div>
             <div className={styles.skillDiv}>
                 <div className={styles.row}>
                     <div className={styles.block}>

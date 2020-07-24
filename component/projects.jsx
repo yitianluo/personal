@@ -2,9 +2,9 @@ import styles from "./projects.module.css"
 
 export default function Projects(){
     return(
-        <div className={styles.projects}>
+        <div className={styles.projects} id="project">
             <div className={styles.divTitle}>
-                <h1>项目经历</h1>
+                <img src="/xingkai/project.png"></img>
             </div>
 
 
@@ -29,8 +29,8 @@ export default function Projects(){
                             <img src="/movie/xhgn.jpg"></img>
                         </div>
                         <div className={styles.two}>
-                        <img src="/movie/lzzw.jpg"></img>
-                        <img src="/movie/xhn.jpg"></img>
+                            <img src="/movie/lzzw.jpg"></img>
+                            <img src="/movie/xhn.jpg"></img>
 
                         </div>
                     </div>

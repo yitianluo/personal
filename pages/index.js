@@ -9,7 +9,7 @@ import Skills from "../component/skills"
 export default function Home() {
   return (
     <div className="container">
-      <Head>
+      <Head lang="zh-CN" >
         <title>罗倚天的主页</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

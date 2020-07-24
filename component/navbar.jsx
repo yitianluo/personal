@@ -4,12 +4,12 @@ import styles from "./navbar.module.css"
 export default function Navbar(){
     return(
         <div className={styles.navbar}>
-            <h1>罗倚天</h1>
+            <img src="/xingkai/name.png"></img>
             <div className={styles.menu}>
-                <p>项目经历</p>
-                <p>工作经历</p>
-                <p>教育经历</p>
-                <p>技能及专长</p>
+                <p><a href="#project">项目经历</a></p>
+                <p><a href="#experience">工作经历</a></p>
+                <p><a href="#education">教育经历</a></p>
+                <p><a href="#skills">技能及专长</a></p>
             </div>
         </div>
     )

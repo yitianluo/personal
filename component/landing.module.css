@@ -65,16 +65,9 @@
     width: 100%;
 }
 
-.introduction h1{
-    font-family: var(--Font-Title);
-    font-size: 3vw;
-    margin: 0;
-}
-
-.introduction h2{
-    font-family: var(--Font-Title);
-    font-size: 2vw;
-    margin: 0;
+.row img{
+    height: 5vw;
+    width: auto;
 }
 
 .introduction h3{
@@ -125,17 +118,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: var(--Text-Color);
 }
 
-.aboutme h1{
-    font-family: var(--Font-Title);
-    text-align: center;
-    font-size: 3vw;
+.aboutme img{
+
+    height: 2rem;
 }
 
 .aboutme p{
     font-family: var(--Font-Text);
     padding: 0 10vw;
     font-size: 1.3vw;
+}
+
+@media (max-width:1028px){
+    .landing{
+        margin-top: 4rem;
+    }
 }

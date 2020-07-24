@@ -3,8 +3,10 @@ import styles from "./education.module.css"
 export default function Education(){
 
     return(
-        <div className={styles.experience}>
-            <h1>教育经历</h1>
+        <div className={styles.experience} id="education">
+            <div className={styles.imgDiv}>
+                <img src="/xingkai/education.png"></img>
+            </div>
             <div className={styles.history}>
                 <div className={styles.school}>
                     <div className={styles.date}>

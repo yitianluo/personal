@@ -2,8 +2,10 @@ import styles from "./experience.module.css"
 
 export default function Experience(){
     return(
-        <div className={styles.experience}>
-            <h1>工作经历</h1>
+        <div className={styles.experience} id="experience">
+            <div className={styles.imgDiv}>
+                <img src="/xingkai/experience.png"></img>
+            </div>
             <div className={styles.history}>
 
 

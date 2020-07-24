@@ -13,27 +13,14 @@
     src:url('/AvenirLTStd-Roman.otf')  format('truetype');
 }
 
-@font-face{
-    font-family: "ChineseFont";
-    src:url('/AaKaiTi-2.ttf')  format('truetype');
-}
-
-@font-face{
-    font-family: "ChineseTitle";
-    src:url("/RuiZiYunZiKuXingKaiGB-2.ttf") format("truetype");
-}
-
-@font-face{
-    font-family: "ChineseDetail";
-    src:url("/fangsong.ttf") format("truetype");
-}
-
 :root {
     --Text-Color:#182153;
     /* --Text-Color:black; */
-    --Font-Text: "ChineseFont",sans-serif;
-    --Font-Title: "ChineseTitle",serif;
-    --Font-Detail:"ChineseDetail",serif;
+    /* --Font-Text: "ChineseFont",sans-serif; */
+    --Font-Text: "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
+    /* --Font-Title: "ChineseTitle",serif; */
+    --Font-Title: "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
+    --Font-Detail:"Fangsong", "仿宋", "STFangsong", "华文仿宋", sans-serif;
 }
 
 body {

@@ -2,14 +2,15 @@
     padding-bottom: 2vw;
 } 
 
-.skills h1{
+.imgDiv{
+    display: flex;
+    justify-content: center;
     background-color: var(--Text-Color);
-    color:white;
-    text-align: center;
-    font-family: var(--Font-Title);
-    padding:2vw 0;
-    font-size: 3vw;
-    margin: 0;
+}
+
+.skills img{
+    height: 4vw;
+    margin:2vw 0;
 }
 
 .skillDiv{

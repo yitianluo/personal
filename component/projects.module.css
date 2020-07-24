@@ -5,17 +5,24 @@
     color: var(--Text-Color);
 }
 
-.divTitle h1{
-    color: var(--Text-Color);
-    font-size: 3vw;
-    text-align: center;
-    font-family: var(--Font-Title);
+.divTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.divTitle img{
+    height: 4vw;
     margin: 2vw 0;
 }
 
 .projectDiv {
     position: relative;
     display: flex;
+}
+
+.projectDiv h1 {
+    font-size: 2.5vw;
+    margin: 0;
 }
 
 .finance {
@@ -29,6 +36,7 @@
     background-color: var(--Text-Color);
     color: white;
     margin: 0;
+    
 }
 
 .fund {
@@ -51,22 +59,22 @@
 }
 
 .four {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .four img{
     width: 20%;
+    height: 15vw;
     object-fit: cover;
 }
 
 .two {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .two img {
     width: 40%;
+    height: 15vw;
     object-fit: cover;
 }
 
