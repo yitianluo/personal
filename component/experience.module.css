@@ -1,5 +1,6 @@
 .experience {
     width: 100%;
+    color: var(--Text-Color);
 }
 
 .imgDiv{
@@ -47,7 +48,7 @@
 }
 
 .content{
-    width: 45%;
+    width: 45vw;
     padding-left: 5vw;
 }
 
@@ -82,5 +83,43 @@
     top: 0;
     left: 49.5vw;
     z-index:2;
-    border-radius: 50%;
+    border-radius: 1vw;
+}
+
+@media (max-width:1028px){
+    .experience img{
+        height: 5.5vw;
+    }
+
+    .date {
+        width: 25vw;
+        border-right: 0.2vw solid #e1e5eb;
+        padding-right: 4.9vw;
+    }
+
+    .content{
+        width: 65vw;
+        padding-left: 4.9vw;
+    }
+
+    .dot {
+        left:29.5vw;
+        top:1vw;
+    }
+
+    .date h1{
+        font-size: 3vw;
+    }
+
+    .date p{
+        font-size: 3vw;
+    }
+
+    .content h1{
+        font-size: 3vw;
+    }
+
+    .content ul{
+        font-size: 2.8vw;
+    }
 }

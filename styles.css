@@ -15,11 +15,8 @@
 
 :root {
     --Text-Color:#182153;
-    /* --Text-Color:black; */
-    /* --Font-Text: "ChineseFont",sans-serif; */
-    --Font-Text: "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
-    /* --Font-Title: "ChineseTitle",serif; */
-    --Font-Title: "KaiTi", "楷体", "STKaiti", "华文楷体", sans-serif;
+    --Font-Text: "KaiTi", "楷体", "STKaiti", "华文楷体","Kai",sans-serif;
+    --Font-Title: "KaiTi", "楷体", "STKaiti", "华文楷体", "Kai",sans-serif;
     --Font-Detail:"Fangsong", "仿宋", "STFangsong", "华文仿宋", sans-serif;
 }
 

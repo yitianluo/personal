@@ -3,6 +3,7 @@
     position: relative;
     width: 100vw;
     color: var(--Text-Color);
+    /* color: black; */
 }
 
 .divTitle {
@@ -21,8 +22,10 @@
 }
 
 .projectDiv h1 {
+    
     font-size: 2.5vw;
     margin: 0;
+    padding: 1vw 0;
 }
 
 .finance {
@@ -31,6 +34,7 @@
 }
 
 .finance h1 {
+    
     text-align: center;
     font-family: var(--Font-Title);
     background-color: var(--Text-Color);
@@ -45,6 +49,7 @@
 }
 
 .fund h2{
+    color: var(--Text-Color);
     text-align: center;
     font-family: var(--Font-Text);
     font-size: 2vw;
@@ -98,6 +103,7 @@
 }
 
 .website h2{
+    color: var(--Text-Color);
     text-align: center;
     font-family: var(--Font-Text);
     font-size: 2vw;
@@ -138,4 +144,53 @@
 .education img{
     height: 4vw;
     padding-left: 5vw;
+}
+
+@media (max-width:1028px){
+
+    .divTitle img{
+        height: 5.5vw;
+    }
+
+    .projectDiv{
+        flex-wrap: wrap;
+    }
+
+    .projectDiv h1{
+        font-size:4vw;
+        padding: 1vw;
+    }
+
+    .projectDiv h2{
+        font-size:3.5vw;
+        padding: 1vw;
+    }
+
+    .projectDiv p{
+        font-size:3vw;
+        line-height: 4vw;
+    }
+
+    .finance{
+        width: 100%;
+    }
+
+    .other {
+        width: 100%;
+    }
+    .four img{
+        height: 30vw;
+    }
+    
+    .two img{
+
+        height: 30vw;
+
+    }
+    
+
+    .education img{
+        height: 6vw;
+        padding-left: 5vw;
+    }
 }

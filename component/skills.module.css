@@ -39,3 +39,18 @@
     font-size: 1.5vw;
     margin: 0;
 }
+
+@media (max-width:1028px){
+    .skillDiv{
+        padding: 2vw 10vw 0;
+    }
+
+    .skills img{
+        height: 5.5vw;
+        margin:2vw 0;
+    }
+
+    .block{
+        width: 34vw;
+    }
+}

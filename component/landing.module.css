@@ -123,7 +123,6 @@
 }
 
 .aboutme img{
-
     height: 2rem;
 }
 
@@ -137,4 +136,10 @@
     .landing{
         margin-top: 4rem;
     }
+
+    .aboutme {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
 }
