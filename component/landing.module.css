@@ -138,8 +138,12 @@
     }
 
     .aboutme {
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+
+    .aboutme p{
+        font-size: 3vw;
     }
 
 }

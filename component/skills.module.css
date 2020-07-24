@@ -27,7 +27,7 @@
 
 .block{
     font-family: var(--Font-Text);
-    padding: 2vw 0;
+    padding: 2vw 2vw;
     width: 24vw;
     position: relative;
     display: flex;
@@ -58,5 +58,11 @@
 
     .block{
         width: 34vw;
+    }
+
+    .block h2 {
+        color: white;
+        font-size: 2.5vw;
+        margin: 0;
     }
 }

@@ -45,7 +45,7 @@ export default function Projects(){
                             <h2>MERN架构网站</h2>
                             <p>我熟练掌握Python,JavaScript,Matlab等编程语言。曾自己开发并编写数个以React为前端，Node JS和Express为服务器，MongoDB为数据库的响应式网站。比如编写全球国家知识图谱网站，为Isun Technology编写公司主页等。</p>
                             <a href="https://country-nextjs.vercel.app/"><img src="/website/country.png"></img></a>
-                            <a href="https://isun-next.vercel.app/"><img src="/website/isun.png"></img></a>
+                            <a href="https://isun-next.vercel.app/"><img src="/website/isun.jpg"></img></a>
                         </div>
                     </div>
                     <div className={styles.education}>

@@ -198,4 +198,20 @@
         height: 6vw;
         padding-left: 5vw;
     }
+
+    .fund p{
+        padding: 2vw 10vw;
+    }
+
+    .website p{
+        padding: 2vw 10vw;
+    }
+    .education p{
+        padding: 2vw 10vw;
+    }
+
+    .education img{
+        padding-left: 10vw;
+    }
+
 }
