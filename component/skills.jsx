@@ -16,7 +16,7 @@ export default function Skills(){
                     <div className={styles.block}>
                         <div className={styles.mask}>
                         </div>
-                        <h2>Microsoft Excel & Word - 专业</h2>
+                        <h2>MS Excel & Word - 专业</h2>
                     </div>
                 </div>
             </div>
