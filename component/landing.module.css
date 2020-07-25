@@ -71,7 +71,7 @@
 }
 
 .introduction h3{
-    font-family: var(--Font-Text);
+    font-family: var(--Font-Title);
     font-size: 1.5vw;
     font-weight: bold;
     display: block;
@@ -82,6 +82,18 @@
     font-family: var(--Font-Text);
     font-size: 1.5vw;
     display: block;
+    margin: 0;
+}
+
+.person h1{
+    font-size: 2vw;
+    font-family: var(--Font-Title);
+    margin: 0;
+}
+
+.person h2{
+    font-size: 1.5vw;
+    font-family: var(--Font-Text);
     margin: 0;
 }
 
@@ -126,10 +138,26 @@
     height: 2rem;
 }
 
-.aboutme p{
+.aboutme h1{
+    font-family: var(--Font-Title);
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 2vw;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro p{
     font-family: var(--Font-Text);
     padding: 0 10vw;
     font-size: 1.3vw;
+    margin: 0;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 @media (max-width:1028px){
@@ -142,8 +170,13 @@
         padding-right: 0vw;
     }
 
-    .aboutme p{
+    .intro p{
         font-size: 3vw;
+    }
+
+    .aboutme h1{
+        font-family: var(--Font-Title);
+        font-size: 1.5rem;
     }
 
 }

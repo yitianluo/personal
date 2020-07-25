@@ -1,15 +1,23 @@
 import styles from "./navbar.module.css"
 
 
-export default function Navbar(){
+export default function Navbar(props){
     return(
         <div className={styles.navbar}>
-            <img src="/xingkai/name.png"></img>
+            {props.isEn? <h1>Yitian Luo</h1>:<img src="/xingkai/name.png"></img>}
             <div className={styles.menu}>
-                <p><a href="#project">项目经历</a></p>
-                <p><a href="#experience">工作经历</a></p>
-                <p><a href="#education">教育经历</a></p>
-                <p><a href="#skills">技能及专长</a></p>
+                <div className={styles.switch}>
+                    <div className={styles.lang} onClick={props.chooseCh} style={props.isEn ? {backgroundColor:"white",color:"var(--Text-Color)"}:{}}>
+                        <p>中文</p>
+                    </div>
+                    <div className={styles.lang} onClick={props.chooseEn} style={props.isEn ? {}:{backgroundColor:"white",color:"var(--Text-Color)"}}>
+                        <p>En</p>
+                    </div>
+                </div>
+                <p><a href="#project">{props.isEn?"Projects":"项目经历"}</a></p>
+                <p><a href="#experience">{props.isEn?"Experience":"工作经历"}</a></p>
+                <p><a href="#education">{props.isEn?"Education":"教育经历"}</a></p>
+                <p><a href="#skills">{props.isEn?"Skills":"技能及专长"}</a></p>
             </div>
         </div>
     )

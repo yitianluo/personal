@@ -1,10 +1,12 @@
 import styles from "./landing.module.css"
 
-export default function Landing(){
+export default function Landing(props){
     return(
          <div>
             <div className={styles.landing}>
                 <img src="/background.jpg"></img>
+                
+                
                 <div className={styles.mask}></div>
                     <div className={styles.namecard}>
                         <div className={styles.photo}>
@@ -12,19 +14,23 @@ export default function Landing(){
                         </div>
                         <div className={styles.introduction}>
                             <div className={styles.row}>
-                                <img src="/xingkai/person.png"></img>
+                            {props.isEn?<div className={styles.person}>
+                                <h1>Yitian Luo</h1>
+                                <h2>Investor、Developer、Educator</h2>
+                            </div> : <img src="/xingkai/person.png"></img>}
+                                
                             </div>
                             <div className={styles.row}>
-                                <h3>移动电话</h3>
+                                <h3>{props.isEn? "Mobile":"移动电话"}</h3>
                                 <p>18621906435</p>
                             </div>
                             <div className={styles.row}>
-                                <h3>电子邮件</h3>
+                                <h3>{props.isEn? "Email":"电子邮件"}</h3>
                                 <p>yitianluo1991@163.com</p>
                             </div>
                             <div className={styles.row}>
-                                <h3>出生日期</h3>
-                                <p>1991年7月</p>
+                                <h3>{props.isEn? "DOB":"出生日期"}</h3>
+                                <p>1991.7</p>
                             </div>
                         </div>
                     </div>
@@ -41,10 +47,19 @@ export default function Landing(){
             </div>
 
             <div className={styles.aboutme}>
-                <div className={styles.intro}>
-                    <img src="/xingkai/hello.png"></img>
-                </div>
-                    <p>我一直致力于成为一名全方位发展的人才。我本科毕业于上海交通大学自动化专业，研究生毕业于美国伦斯勒理工学院金融工程专业。工作以来，我在从事金融行业的同时，也努力成为一名优秀的全端开发者和教育者。在金融领域，我主导募集并成立过一支政府引导基金参与的天使投资基金，参与一支PE基金，带领团队负责过一支基金的投资与管理。科技领域，我独立完成数个网站的前端和后端的建设，熟练掌握多种编程语言。教育领域，我多次参与演讲等社会活动，并经营自己的微信公众号。</p>
+                
+                    {props.isEn? <div className={styles.intro}>
+                        <h1>Hello, I'm Yitian</h1> 
+                        <p>I keep learning new knowledge & technologies to become a professional with diversified skills. I got my bechelor degree in automation from Shanghai Jiao Tong university and graduated from Rensslaer Polytechnic Institute with a master degree in Quantitative Finance. I act as a developer and educator while developing my career as a financial professional. I raised a VC fund, a PE fund and managed a PE fund. I also built several websites using MERN framework. I shared my knowledge with people by giving TEDx speech and run my social media accounts.</p>
+                        </div>:
+                    <div className={styles.intro}>
+                        <img src="/xingkai/hello.png"></img>
+                        <p>我一直致力于成为一名全方位发展的人才。我本科毕业于上海交通大学自动化专业，研究生毕业于美国伦斯勒理工学院金融工程专业。工作以来，我在从事金融行业的同时，也努力成为一名优秀的全端开发者和教育者。在金融领域，我主导募集并成立过一支政府引导基金参与的天使投资基金，参与一支PE基金，带领团队负责过一支基金的投资与管理。科技领域，我独立完成数个网站的前端和后端的建设，熟练掌握多种编程语言。教育领域，我多次参与演讲等社会活动，并经营自己的微信公众号。</p>
+                    </div>}
+            
+                
+                   
+                
                 
             </div>
 

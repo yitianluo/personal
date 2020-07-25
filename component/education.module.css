@@ -10,6 +10,11 @@
     height: 5rem;
 }
 
+.experience h1{
+    font-size: 4vw;
+    font-family: var(--Font-Title);
+}
+
 .experience img{
     height: 4vw;
 }
@@ -57,7 +62,7 @@
     margin: 0;
     border: 0;
     text-align: left;
-    font-family: var(--Font-Text);
+    font-family: var(--Font-Title);
     font-size: 1.5vw;
 }
 

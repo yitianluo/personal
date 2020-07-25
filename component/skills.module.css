@@ -11,6 +11,13 @@
 
 }
 
+.imgDiv h1{
+    color: white;
+    font-family: var(--Font-Title);
+    font-size: 4vw;
+    margin: 0;
+}
+
 .skills img{
     height: 4vw;
 }

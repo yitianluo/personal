@@ -16,8 +16,13 @@
     height: 2.5rem;
 }
 
+.navbar h1{
+    font-family: var(--Font-Title);
+    font-size: 2rem;
+}
+
 .navbar p{
-    font-family: var(--Font-Text);
+    font-family: var(--Font-Title);
     margin-left: 2vw;
     font-size: 1.5vw;
 }
@@ -26,6 +31,34 @@
     display: flex;
     width: 70vw;
     justify-content: flex-end;
+    align-items: center;
+}
+
+.switch {
+    display: flex;
+    width: 10vw;
+    height: 3rem;
+}
+
+.lang{
+    border: 1px solid var(--Text-Color);
+    background-color: var(--Text-Color);
+    color: white;
+    padding: 0vw 0vw;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang:hover{
+    cursor: pointer;
+}
+
+.lang p{
+    margin: 0;
+    font-size: 1.5vw;
+    font-family: "KaiTi", "楷体", "STKaiti", "华文楷体","Kai",sans-serif;
 }
 
 .menu a{
@@ -58,4 +91,13 @@
         height: 4rem;
     }
 
+    .navbar h1{
+        font-family: var(--Font-Title);
+        font-size: 4vw;
+    }
+
+    .switch {
+        width: 15vw;
+        height: 2rem;
+    }
 }
