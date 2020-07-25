@@ -100,6 +100,10 @@
     .experience img{
         height: 5.5vw;
     }
+    .experience h1{
+        font-size: 5.5vw;
+        font-family: var(--Font-Title);
+    }
 
     .date {
         width: 25vw;

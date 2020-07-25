@@ -15,9 +15,9 @@
 
 :root {
     --Text-Color:#182153;
-    --Font-Text: "KaiTi", "楷体", "STKaiti", "华文楷体","Kai",sans-serif;
-    --Font-Title: "KaiTi", "楷体", "STKaiti", "华文楷体", "Kai",sans-serif;
-    --Font-Detail:"Fangsong", "仿宋", "STFangsong", "华文仿宋", sans-serif;
+    --Font-Text: "Avenir Book",sans-serif;
+    --Font-Title: "Avenir Black",sans-serif;
+    --Font-Detail:"Avenir Roman", sans-serif;
 }
 
 body {

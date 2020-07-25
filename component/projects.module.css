@@ -161,6 +161,11 @@
         height: 4rem;
     }
 
+    .divTitle h1{
+        font-size: 5.5vw;
+        font-family: var(--Font-Title);
+    }
+
     .divTitle img{
         height: 5.5vw;
     }
