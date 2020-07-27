@@ -31,7 +31,18 @@ export default function Home() {
 
   return (
     <div className="container">
-      <Head lang="zh-CN" >
+      <Head lang="zh-CN" >   
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173626306-1"></script>
+      <script dangerouslySetInnerHTML={
+        { __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments)}
+        gtag("js", new Date());
+        gtag("config", 'UA-173626306-1');
+        `}
+      }>  
+      </script>
+
         <title>{isEn? "Yitian Luo's Page":"罗倚天的主页"}</title>
         <link rel="icon" href="/favicon.ico" />
         <script src="/jquery-3.5.1.min.js"></script>
