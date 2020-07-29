@@ -24,7 +24,7 @@ export default function Projects(props){
                         }
                     </div>
                     <div className={styles.fund}>
-                        <h2>Orient Dadi PE fund</h2>
+                        {props.isEn?<h2>Orient Dadi PE fund</h2>:<h2>东方大地影视投资基金</h2>}
                         {props.isEn?<p>Orient Dadi PE fund was founded by a subsidiary of China Orient Asset Management and the No.2 Cinema management company in China -- Dadi Group. I was the manager of the fund and took responsibility for the investment and management of the fund. I successfully exit from nearly 10 projects and saved investors lots of money. </p>
                         :<p>东方大地影视投资基金由四大AMC之一的东方资产旗下子公司与文化行业龙头企业大地电影共同设立，主要投资文化影视项目。我作为该基金负责人，带领团队进行基金的日常管理，进行项目投资，帮助已投项目有序退出。管理基金期间，成功退出约十个项目，为公司收回投资数千万元，有效地保障了投资人的资金安全。</p>
                         }
