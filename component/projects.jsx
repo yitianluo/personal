@@ -1,7 +1,10 @@
-import styles from "./projects.module.css"
+import styles from "./projects.module.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
 
 export default function Projects(props){
     return(
+        <ScrollAnimation animateIn="animate__fadeIn">
         <div className={styles.projects} id="project">
             <div className={styles.divTitle}>
                 {props.isEn?<h1>Projects</h1>:<img src="/xingkai/project.png"></img>}
@@ -66,5 +69,6 @@ export default function Projects(props){
                 </div>
                 </div>
         </div>
+        </ScrollAnimation>
     )
 }

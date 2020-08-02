@@ -1,4 +1,5 @@
-import styles from "./landing.module.css"
+import styles from "./landing.module.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Landing(props){
     return(
@@ -47,15 +48,17 @@ export default function Landing(props){
             </div>
 
             <div className={styles.aboutme}>
-                
+                    <ScrollAnimation animateIn="animate__bounce">
                     {props.isEn? <div className={styles.intro}>
                         <h1>Hello, I'm Yitian</h1> 
                         <p>I keep learning new knowledge & technologies to become a professional with diversified skills. I got my bechelor degree in automation from Shanghai Jiao Tong university and graduated from Rensslaer Polytechnic Institute with a master degree in Quantitative Finance. I act as a developer and educator while developing my career as a financial professional. I raised a VC fund, a PE fund and managed a PE fund. I also built several websites using MERN framework. I shared my knowledge with people by giving TEDx speech and run my social media accounts.</p>
                         </div>:
+                    
                     <div className={styles.intro}>
                         <img src="/xingkai/hello.png"></img>
                         <p>我一直致力于成为一名全方位发展的人才。我本科毕业于上海交通大学自动化专业，研究生毕业于美国伦斯勒理工学院金融工程专业。工作以来，我在从事金融行业的同时，也努力成为一名优秀的全端开发者和教育者。在金融领域，我主导募集并成立过一支政府引导基金参与的天使投资基金，参与一支PE基金，带领团队负责过一支基金的投资与管理。科技领域，我独立完成数个网站的前端和后端的建设，熟练掌握多种编程语言。教育领域，我多次参与演讲等社会活动，并经营自己的微信公众号。</p>
                     </div>}
+                    </ScrollAnimation>
             
                 
                    

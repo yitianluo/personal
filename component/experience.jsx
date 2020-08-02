@@ -1,7 +1,10 @@
-import styles from "./experience.module.css"
+import styles from "./experience.module.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Experience(props){
     return(
+        <ScrollAnimation animateIn="animate__fadeInLeft">
+        
         <div className={styles.experience} id="experience">
             <div className={styles.imgDiv}>
                 {props.isEn?<h1>Experience</h1>:<img src="/xingkai/experience.png"></img>}
@@ -83,5 +86,6 @@ export default function Experience(props){
 
             </div>
         </div>
+        </ScrollAnimation>
     )
 }

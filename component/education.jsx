@@ -1,8 +1,10 @@
 import styles from "./education.module.css"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Education(props){
 
     return(
+        <ScrollAnimation animateIn="animate__fadeInRight">
         <div className={styles.experience} id="education">
             <div className={styles.imgDiv}>
             {props.isEn?<h1>Education</h1>:<img src="/xingkai/education.png"></img>}
@@ -55,5 +57,6 @@ export default function Education(props){
 
             </div>
         </div>
+        </ScrollAnimation>
     )
 }
