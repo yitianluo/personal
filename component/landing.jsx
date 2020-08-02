@@ -48,7 +48,7 @@ export default function Landing(props){
             </div>
 
             <div className={styles.aboutme}>
-                    <ScrollAnimation animateIn="animate__bounce">
+                    <ScrollAnimation animateIn="animate__bounce" animateOnce="true">
                     {props.isEn? <div className={styles.intro}>
                         <h1>Hello, I'm Yitian</h1> 
                         <p>I keep learning new knowledge & technologies to become a professional with diversified skills. I got my bechelor degree in automation from Shanghai Jiao Tong university and graduated from Rensslaer Polytechnic Institute with a master degree in Quantitative Finance. I act as a developer and educator while developing my career as a financial professional. I raised a VC fund, a PE fund and managed a PE fund. I also built several websites using MERN framework. I shared my knowledge with people by giving TEDx speech and run my social media accounts.</p>

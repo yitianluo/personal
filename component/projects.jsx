@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Projects(props){
     return(
-        <ScrollAnimation animateIn="animate__fadeIn">
+        <ScrollAnimation animateIn="animate__fadeIn" animateOnce="true">
         <div className={styles.projects} id="project">
             <div className={styles.divTitle}>
                 {props.isEn?<h1>Projects</h1>:<img src="/xingkai/project.png"></img>}

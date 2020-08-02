@@ -3,7 +3,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Experience(props){
     return(
-        <ScrollAnimation animateIn="animate__fadeInLeft">
+        <ScrollAnimation animateIn="animate__fadeInLeft" animateOnce="true">
         
         <div className={styles.experience} id="experience">
             <div className={styles.imgDiv}>

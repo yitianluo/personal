@@ -8,7 +8,7 @@ export default function Skills(props){
             <div className={styles.imgDiv}>
                 {props.isEn? <h1>Skills</h1>:<img src="/xingkai/skills.png"></img>}
             </div>
-            <ScrollAnimation animateIn="animate__fadeIn">
+            <ScrollAnimation animateIn="animate__fadeIn" animateOnce="true">
             <div className={styles.skillDiv}>
                 <div className={styles.row}>
                 
