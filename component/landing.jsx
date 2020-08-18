@@ -17,7 +17,7 @@ export default function Landing(props){
                             <div className={styles.row}>
                             {props.isEn?<div className={styles.person}>
                                 <h1>Yitian Luo</h1>
-                                <h2>Investor、Developer、Educator</h2>
+                                <h2>Developer、Investor、Educator</h2>
                             </div> : <img src="/xingkai/person.png"></img>}
                                 
                             </div>

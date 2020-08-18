@@ -34,8 +34,88 @@
     padding: 1vw 0;
 }
 
-.finance {
+
+.technology{
     width: 50%;
+}
+
+
+.technology h1{
+    margin: 0;
+    text-align: center;
+    font-family: var(--Font-Title);
+    background-color: var(--Text-Color);
+    color: white;
+}
+
+
+.website {
+    padding-top: 2vw;
+}
+
+.website p{
+    font-family: var(--Font-Detail);
+    padding: 1vw 5vw;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    margin: 0;
+}
+
+.miniimgdiv{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.miniimg{
+    display: inline-block;
+    width: 24%;
+}
+
+.rn{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.lefthalf{
+    width: 50%;
+    padding: 0;
+}
+
+.lefthalf p{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.righthalf{
+    width: 50%;
+}
+
+.rnimg{
+    width: 50%;
+    padding-top: 1vw;
+    /* padding-left: ; */
+}
+
+.website h2{
+    color: var(--Text-Color);
+    text-align: center;
+    font-family: var(--Font-Title);
+    font-size: 2vw;
+    margin: 0;
+}
+
+
+
+.webimg{
+    width: 80%;
+    padding-left: 10%;
+}
+
+.finance {
+    /* width: 50%; */
     background-color: white;
 }
 
@@ -97,38 +177,6 @@
     
 }
 
-.technology h1{
-    margin: 0;
-    text-align: center;
-    font-family: var(--Font-Title);
-    background-color: var(--Text-Color);
-    color: white;
-}
-
-.website {
-    padding-top: 2vw;
-}
-
-.website h2{
-    color: var(--Text-Color);
-    text-align: center;
-    font-family: var(--Font-Title);
-    font-size: 2vw;
-    margin: 0;
-}
-
-.website p{
-    font-family: var(--Font-Detail);
-    padding: 1vw 5vw;
-    font-size: 1.2vw;
-    line-height: 1.5vw;
-    margin: 0;
-}
-
-.website img{
-    width: 80%;
-    padding-left: 10%;
-}
 
 .education {
     padding-top: 2vw;
@@ -193,6 +241,14 @@
         width: 100%;
     }
 
+    .technology{
+        width: 100%;
+    }
+
+    .website{
+        width: 100%;
+    }
+
     .other {
         width: 100%;
     }
@@ -219,6 +275,17 @@
     .website p{
         padding: 2vw 10vw;
     }
+
+
+
+
+    .lefthalf p{
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+
     .education p{
         padding: 2vw 10vw;
     }
