@@ -71,6 +71,8 @@
 .miniimg{
     display: inline-block;
     width: 24%;
+    height: 16vw;
+    object-fit: cover;
 }
 
 .rn{
@@ -276,7 +278,11 @@
         padding: 2vw 10vw;
     }
 
+    .miniimg{
 
+        height: 32vw;
+
+    }
 
 
     .lefthalf p{
