@@ -5,7 +5,7 @@ export default function Navbar(props){
     return(
         <div className={styles.navbar}>
             {props.isEn? <h1>Yitian Luo</h1>:<img src="/xingkai/name.png"></img>}
-            <p style={{fontWeight:"bold"}}>Yitianluo.com</p>
+            {/* <p style={{fontWeight:"bold"}}>Yitianluo.com</p> */}
             <div className={styles.menu}>
                 <div className={styles.switch}>
                     <div className={styles.lang} onClick={props.chooseCh} style={props.isEn ? {backgroundColor:"white",color:"var(--Text-Color)"}:{}}>
