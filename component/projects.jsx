@@ -50,7 +50,7 @@ export default function Projects(props) {
                         </div>
 
                         <div className={styles.website}>
-                            <h2>{props.isEn ? "MEAN framework websites" : "MERN架构网站"}</h2>
+                            <h2>{props.isEn ? "MERN framework websites" : "MERN架构网站"}</h2>
                             {props.isEn ? <p>I'm familar with programming languages like Python, JavaScript, Swift,Matlab,etc. I developed several websites by myself using React as frontend, Node JS and Express as backend, and MongoDB as database. For example, I built a country encyclopedia websites, a website for Isun Technology Inc.,etc. </p>
                                 : <p>我熟练掌握Python,JavaScript,Swift,Matlab等编程语言。曾自己开发并编写数个以React为前端，Node JS和Express为服务器，MongoDB为数据库的响应式网站。比如编写全球国家知识图谱网站，为Isun Technology编写公司主页等。</p>
                             }
